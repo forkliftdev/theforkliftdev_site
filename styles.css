@@ -1,4 +1,3 @@
-/* 1. Global Reset & Fonts */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #333; /* Dark gray for readability */
@@ -9,9 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Ensures content is centered vertically on the whole screen */
-    text-align: center;
 }
-
 /* 2. Intro Section Container */
 .intro-section {
     max-width: 600px; /* Limits the width for better readability */
@@ -19,8 +16,8 @@ body {
     background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Left-align text within this container */
 }
-
 /* 3. Visuals (Photo and Logo) */
 .visuals {
     display: flex;
@@ -28,7 +25,6 @@ body {
     align-items: center;
     margin-bottom: 25px;
 }
-
 .profile-photo {
     width: 120px;
     height: 120px;
@@ -37,26 +33,22 @@ body {
     margin: 0 15px;
     border: 4px solid #007bff; /* Blue border to highlight the photo */
 }
-
 .logo {
-    width: 60px;
-    height: 60px;
-    /* You might adjust these dimensions based on your logo's aspect ratio */
+    width: 120px;
+    height: 120px;
+    /* Logo is now the same size as the profile photo */
 }
-
 /* 4. Text and Headings */
 h1 {
     font-size: 2.2em;
     color: #007bff; /* Use a strong blue for your mantra */
     margin-top: 0;
 }
-
 p {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 30px;
 }
-
 /* 5. Call to Action (CTA) Button */
 .cta-button {
     display: inline-block;
@@ -69,8 +61,6 @@ p {
     letter-spacing: 0.5px;
     transition: background-color 0.3s ease;
 }
-
 .cta-button:hover {
     background-color: #0056b3; /* Darkens the button on hover for feedback */
 }
-
