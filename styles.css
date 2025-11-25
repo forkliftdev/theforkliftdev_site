@@ -35,9 +35,16 @@ body {
 }
 .logo {
     width: 120px;
-    height: 120px;
-    /* Logo is now the same size as the profile photo */
+    height: 120px; /* Same size as picture */
+    cursor: pointer; /* Shows it's clickable */
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
+
+.logo:hover {
+    box-shadow: 0 0 0 4px #007bff; /* Blue outline on hover */
+    transform: scale(1.05); /* Slightly enlarges the logo */
+}
+
 /* 4. Text and Headings */
 h1 {
     font-size: 2.2em;
