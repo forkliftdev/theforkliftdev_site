@@ -54,7 +54,7 @@ h1 {
 p {
     font-size: 1.1em;
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom:  0 0 6px 0;;
 }
 /* 5. Call to Action (CTA) Button */
 .cta-button {
